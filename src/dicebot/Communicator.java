@@ -1,11 +1,7 @@
 package dicebot;
 
 import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.HttpException;
-import org.apache.commons.httpclient.HttpStatus;
 import org.apache.commons.httpclient.methods.PostMethod;
-
-import java.io.IOException;
 
 /**
  * Created by jbird on 1/6/16.
@@ -25,16 +21,12 @@ public class Communicator {
         }
         // "icon_url" is a link to the picture that will show up for the bot
         if (!icon.isEmpty()) {
-            jMesg = jMesg + ",\"icon_url\":\"" + icon + "\"";
+            jMesg = jMesg + ",\"icon_emoji\":\"" + icon + "\"";
         }
         jMesg = jMesg + "}";
         pMethod.addParameter("payload", jMesg);
         try {
             hClient.executeMethod(pMethod);
-        } catch (HttpException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
         } catch (Exception e) {
             e.printStackTrace();
         }
