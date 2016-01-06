@@ -247,4 +247,19 @@ public class Player implements Serializable{
     public void setCurrentDuel(String currentDuel) {
         this.currentDuel = currentDuel;
     }
+    //////
+    // Constructors
+
+
+    public Player(String ID, String name) {
+        this.ID = ID;
+        this.name = name;
+        this.isActive = false;
+        this.status = status.HEALTHY;
+        this.boosts = 0;
+        this.usedBoosts = 0;
+        this.rerolls = 0;
+        this.usedRerolls = 0;
+        this.currentDuel = null;
+    }
 }
