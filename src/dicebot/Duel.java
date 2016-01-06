@@ -1,4 +1,4 @@
-package com.jbird.dicebot;
+package dicebot;
 import java.io.Serializable;
 /**
  * Created by jbird on 1/5/16.
