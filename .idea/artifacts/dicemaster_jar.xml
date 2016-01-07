@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="dicemaster:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/dicemaster_jar</output-path>
+    <root id="archive" name="dicemaster.jar">
+      <element id="module-output" name="dicemaster" />
+      <element id="extracted-dir" path="/usr/share/java/commons-httpclient.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

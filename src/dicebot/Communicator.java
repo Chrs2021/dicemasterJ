@@ -25,8 +25,8 @@ public class Communicator {
             BufferedReader in = new BufferedReader(new InputStreamReader(clieSock.getInputStream()));
         ) {
             String inLine;
-            while ((inLine = in.readLine()) != null) {
-                System.out.println(inLine);
+            for (int i = 1;(inLine = in.readLine()) != null;i++) {
+                System.out.println("This is line " + i + ":    " + inLine);
             }
         } catch (IOException e) {
             e.printStackTrace();
