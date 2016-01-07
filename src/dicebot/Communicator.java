@@ -20,13 +20,18 @@ public class Communicator {
     public static void slackListen(String URL,int port) {
         try (
             ServerSocket servSock = new ServerSocket(port);
-            Socket clieSock = servSock.accept();
-            PrintWriter out = new PrintWriter(clieSock.getOutputStream(), true);
-            BufferedReader in = new BufferedReader(new InputStreamReader(clieSock.getInputStream()));
+
         ) {
-            String inLine;
-            for (int i = 1;(inLine = in.readLine()) != null;i++) {
-                System.out.println("This is line " + i + ":    " + inLine);
+            while (true) {
+                Socket clieSock = servSock.accept();
+                PrintWriter out = new PrintWriter(clieSock.getOutputStream(), true);
+                BufferedReader in = new BufferedReader(new InputStreamReader(clieSock.getInputStream()));
+                String inLine, outline;
+                for (int i = 1; (inLine = in.readLine()) != null; i++) {
+                    System.out.println("This is line " + i + ":    " + inLine);
+                }
+                outline = "HTTP/1.1 200 OK\r\n\r\n" + "{\"text\":\"You rolled a four!!!!!\"}";
+                out.write(outline);
             }
         } catch (IOException e) {
             e.printStackTrace();
