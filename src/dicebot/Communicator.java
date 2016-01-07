@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import javax.net.ssl.*;
 
 /**
  * Created by jbird on 1/6/16.
@@ -16,6 +17,17 @@ import java.net.Socket;
  * medium is being used to work with dicemaster.
  */
 public class Communicator {
+    // A new SSL listener function. Maybe this will work? lol
+    public static void SSLSlackListen(String URL,int port) {
+        try{
+            SSLServerSocketFactory sssf = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
+            SSLServerSocket sSock = (SSLServerSocket) sssf.createServerSocket(port);
+            // TODO: keep working on SSL listener
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     // The listen() function will be for waiting on slash commands
     public static void slackListen(String URL,int port) {
         try (
