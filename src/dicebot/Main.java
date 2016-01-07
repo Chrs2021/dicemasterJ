@@ -34,7 +34,7 @@ public class Main {
         while (go) {
             System.out.println("What shall we say?");
             mesg = scan.nextLine();
-            Communicator.sendReq(URL,mesg);
+            Communicator.slackSendReq(URL,mesg);
             System.out.print("Continue? y/n");
             answer = scan.nextLine().charAt(0);
             if (answer == 'n') {
@@ -44,6 +44,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        chatTest();
+        Communicator.slackListen("dice.adhdtv.xyz",443);
     }
 }
