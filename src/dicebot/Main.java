@@ -44,6 +44,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Communicator.slackListen("dice.adhdtv.xyz",443);
+        Communicator.SSLSlackListen("dice.adhdtv.xyz",443);
     }
 }

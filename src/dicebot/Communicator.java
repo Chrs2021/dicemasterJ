@@ -3,10 +3,7 @@ package dicebot;
 import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.PostMethod;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import javax.net.ssl.*;
@@ -22,6 +19,15 @@ public class Communicator {
         try{
             SSLServerSocketFactory sssf = (SSLServerSocketFactory) SSLServerSocketFactory.getDefault();
             SSLServerSocket sSock = (SSLServerSocket) sssf.createServerSocket(port);
+            SSLSocket cSock = (SSLSocket) sSock.accept();
+            DataInputStream in = new DataInputStream(cSock.getInputStream());
+            PrintStream out = new PrintStream(cSock.getOutputStream());
+            String input;
+            for(int i =0;(input = in.readUTF()) != null; i++) {
+                System.out.println("This is SSL line " + i + ":   " + input);
+            }
+            String outline = "HTTP/1.1 200 OK\r\n\r\n" + "{\"text\":\"YOU ROLLED A FOUR!!!!!\"}";
+            out.write(outline.getBytes("UTF-8"));
             // TODO: keep working on SSL listener
         } catch (IOException e) {
             e.printStackTrace();
