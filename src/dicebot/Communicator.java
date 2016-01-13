@@ -49,6 +49,7 @@ public class Communicator {
                     System.out.println("This is line " + i + ":    " + inLine);
                 }
                 outline = "HTTP/1.1 200 OK\r\n\r\n" + "{\"text\":\"You rolled a four!!!!!\"}";
+                System.out.println(outline);
                 out.write(outline);
             }
         } catch (IOException e) {
