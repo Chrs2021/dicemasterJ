@@ -44,7 +44,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.setProperty("javax.net.ssl.keyStore","/etc/ssl/private/ssl-cert-snakeoil.key");
+        System.setProperty("javax.net.ssl.keyStore","/etc/letsencrypt/keys/0000_key-letsencrypt.pem");
         Communicator.SSLSlackListen("dice.adhdtv.xyz",443);
     }
 }
