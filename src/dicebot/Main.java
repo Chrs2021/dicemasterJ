@@ -44,7 +44,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.setProperty("javax.net.ssl.keyStore","keystore.jks");
-        Communicator.SSLSlackListen("dice.adhdtv.xyz",443);
+        //System.setProperty("javax.net.ssl.keyStore","keystore.jks");
+        Communicator.slackListen("localhost",2237);
     }
 }
