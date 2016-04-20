@@ -48,6 +48,6 @@ public class Main {
         System.out.println("What port shall we listen on?\n");
         Scanner in = new Scanner(System.in);
         int Port = in.nextInt();
-        Communicator.slackListen("localhost",Port);
+        Communicator.slackListen("dice.adhdtv.xyz/requests",Port,"https://hooks.slack.com/services/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");
     }
 }

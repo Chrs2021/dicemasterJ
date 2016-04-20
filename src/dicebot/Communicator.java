@@ -35,22 +35,24 @@ public class Communicator {
     }
 
     // The listen() function will be for waiting on slash commands
-    public static void slackListen(String URL,int port) {
+    public static void slackListen(String URL,int port,String URL_out) {
         try (
             ServerSocket servSock = new ServerSocket(port);
 
         ) {
             while (true) {
                 Socket clieSock = servSock.accept();
-                PrintWriter out = new PrintWriter(clieSock.getOutputStream(), true);
+                //PrintWriter out = new PrintWriter(clieSock.getOutputStream(), true);
                 BufferedReader in = new BufferedReader(new InputStreamReader(clieSock.getInputStream()));
                 String inLine, outline;
                 for (int i = 1; (inLine = in.readLine()) != null; i++) {
                     System.out.println("This is line " + i + ":    " + inLine);
                 }
-                outline = "HTTP/1.1 200 OK\r\n\r\n" + "{\"text\":\"You rolled a four!!!!!\"}";
+                //outline = "HTTP/1.1 200 OK\r\n\r\n" + "{\"text\":\"You rolled a four!!!!!\"}";
+                outline = "you got a 4! yay!";
                 System.out.println(outline);
-                out.write(outline);
+                //out.write(outline);
+                slackSendReq(URL_out,outline);
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -75,6 +77,7 @@ public class Communicator {
         }
         jMesg = jMesg + "}";
         pMethod.addParameter("payload", jMesg);
+        System.out.println("This is the message:\n" + jMesg);
         try {
             hClient.executeMethod(pMethod);
         } catch (Exception e) {
