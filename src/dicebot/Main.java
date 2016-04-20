@@ -45,6 +45,9 @@ public class Main {
 
     public static void main(String[] args) {
         //System.setProperty("javax.net.ssl.keyStore","keystore.jks");
-        Communicator.slackListen("localhost",2237);
+        System.out.println("What port shall we listen on?\n");
+        Scanner in = new Scanner(System.in);
+        int Port = in.nextInt();
+        Communicator.slackListen("localhost",Port);
     }
 }
