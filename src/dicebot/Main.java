@@ -1,5 +1,7 @@
 package dicebot;
 
+import slackchat.impl.webhookSession;
+
 import java.math.BigInteger;
 import java.util.Map;
 import java.security.SecureRandom;
@@ -25,6 +27,7 @@ public class Main {
         players.put(newID,new Player(newID,name));
     }
 
+    /*
     // Function for testing communication with Slack
     private static void chatTest() {
         boolean go = true;
@@ -42,12 +45,9 @@ public class Main {
             }
         }
     }
-
+    */
     public static void main(String[] args) {
-        //System.setProperty("javax.net.ssl.keyStore","keystore.jks");
-        System.out.println("What port shall we listen on?\n");
-        Scanner in = new Scanner(System.in);
-        int Port = in.nextInt();
-        Communicator.slackListen("dice.adhdtv.xyz/requests",Port,"https://hooks.slack.com/services/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");
+        //this will be expanded out to do more stuff.
+        webhookSession  test = new webhookSession("",Integer.parseInt(args[0]));
     }
 }

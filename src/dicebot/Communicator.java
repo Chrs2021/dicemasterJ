@@ -1,7 +1,5 @@
 package dicebot;
 
-import org.apache.commons.httpclient.HttpClient;
-import org.apache.commons.httpclient.methods.PostMethod;
 
 import java.io.*;
 import java.net.ServerSocket;
@@ -52,14 +50,14 @@ public class Communicator {
                 outline = "you got a 4! yay!";
                 System.out.println(outline);
                 //out.write(outline);
-                slackSendReq(URL_out,outline);
+             //   slackSendReq(URL_out,outline);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
-
+    /*
     // The slackSendReq() functions are for sending hooks to Slack
     public static void slackSendReq(String url, String mesg, String name, String icon) {
         HttpClient hClient = new HttpClient();
@@ -93,4 +91,5 @@ public class Communicator {
     public static void slackSendReq(String url, String mesg) {
         slackSendReq(url,mesg,"");
     }
+*/
 }
