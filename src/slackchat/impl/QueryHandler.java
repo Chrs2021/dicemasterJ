@@ -18,7 +18,6 @@ public class QueryHandler implements Runnable {
     public QueryHandler(Socket socket, List<MessageClient> botListeners)
     {
         messageClientListener = botListeners;
-       System.out.println(messageClientListener.size());
         mSocket = socket;
     }
 

@@ -2,7 +2,9 @@ package dicebot;
 
 import slackchat.impl.MessageContainer;
 import slackchat.impl.webhookSession;
+import slackchat.impl.webhooksIncoming;
 import slackchat.interfaces.MessageClient;
+import slackchat.models.OutgoingData;
 
 import java.io.IOException;
 import java.math.BigInteger;
@@ -49,8 +51,17 @@ public class Main {
     }
     */
     public static void main(String[] args) {
-        //this will be expanded out to do more stuff.
+        //this should be expanded out to do more stuff.
         webhookSession  session = new webhookSession("",Integer.parseInt(args[0]));
+
+        webhooksIncoming unsolicitedMessager = new webhooksIncoming(args[1]);
+
+        OutgoingData onlineMessage = new OutgoingData();
+        onlineMessage.setMessage("Bots Are Go!");
+        onlineMessage.setUser("Bot Manager");
+        onlineMessage.setChannel("#general");
+        onlineMessage.setIcon(":100:");
+        unsolicitedMessager.SendMessage(onlineMessage);
 
         session.addBotListener(new MessageClient() {
             @Override
