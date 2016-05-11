@@ -1,11 +1,13 @@
 package dicebot;
 
+import slackchat.impl.MessageContainer;
 import slackchat.impl.webhookSession;
+import slackchat.interfaces.MessageClient;
 
+import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Map;
 import java.security.SecureRandom;
-import java.util.Scanner;
 
 public class Main {
 
@@ -48,6 +50,17 @@ public class Main {
     */
     public static void main(String[] args) {
         //this will be expanded out to do more stuff.
-        webhookSession  test = new webhookSession("",Integer.parseInt(args[0]));
+        webhookSession  session = new webhookSession("",Integer.parseInt(args[0]));
+
+        session.addBotListener(new MessageClient() {
+            @Override
+            public void messageReceived(String from, String channel, String msg, String trigger_word, MessageContainer outputMessage) {
+                //this is a bot response method...
+               outputMessage.setUsername(trigger_word);
+                outputMessage.setIcon(":ghost:");
+                outputMessage.setMessage(msg);
+                outputMessage.sendMessage();
+            }
+        });
     }
 }

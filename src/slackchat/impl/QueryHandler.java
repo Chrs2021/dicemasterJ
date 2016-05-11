@@ -1,9 +1,9 @@
 package slackchat.impl;
 
-import javax.print.DocFlavor;
+import slackchat.interfaces.MessageClient;
+
 import java.io.*;
 import java.net.Socket;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
@@ -12,9 +12,13 @@ import java.util.*;
 public class QueryHandler implements Runnable {
     private Socket mSocket;
     private HashMap<String, String> mPostDataSet;
+    private List<MessageClient> messageClientListener;
+    private BufferedWriter mOutput;
 
-    public QueryHandler(Socket socket)
+    public QueryHandler(Socket socket, List<MessageClient> botListeners)
     {
+        messageClientListener = botListeners;
+       System.out.println(messageClientListener.size());
         mSocket = socket;
     }
 
@@ -22,24 +26,24 @@ public class QueryHandler implements Runnable {
     public void run() {
         BufferedWriter out;
         BufferedReader inData;
-        String incomingLine = "";
-        boolean done =false;
+        String incomingLine;
         try {
-            out = new  BufferedWriter( new OutputStreamWriter(mSocket.getOutputStream()));
+            mOutput = new  BufferedWriter( new OutputStreamWriter(mSocket.getOutputStream()));
             inData = new BufferedReader(new InputStreamReader(mSocket.getInputStream()));
 
             while ((incomingLine = inData.readLine()).length() !=0){
                 //basic output just testing
                 if(incomingLine.startsWith("POST"))
                 {
-                    out.write("HTTP/1.0 200 OK\r");
-                    out.newLine();
-                    out.flush();
+                    mOutput.write("HTTP/1.0 200 OK\r");
+                    mOutput.newLine();
+                    mOutput.flush();
                 }
                 if(incomingLine.startsWith("Connection"))
                 {
-                    out.newLine();
-                    out.flush();
+                    mOutput.newLine();
+                    mOutput.newLine();
+                    mOutput.flush();
                 }
             }
 
@@ -50,16 +54,10 @@ public class QueryHandler implements Runnable {
 
             processMessage(payload);
 
-            out.write("{ \n \"username\": \"Casper\" , \"icon_emoji\": \":ghost:\" ,\"text\": \""+mPostDataSet.get("msg")+"\" \n}\r");
-            out.flush();
-            out.close();
-            mSocket.close();
-
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
 
     private void processMessage(StringBuilder rawData)
     {
@@ -86,14 +84,28 @@ public class QueryHandler implements Runnable {
             mPostDataSet.put(data[0],data[1]);
         }
         addQueryProperty(mPostDataSet);
-        //TODO: add notifier to alert a new message has arrived.
+
+        for (MessageClient client: messageClientListener) {
+            client.messageReceived(mPostDataSet.get("user_name"),mPostDataSet.get("channel_name"),
+                    mPostDataSet.get("msg"), mPostDataSet.get("trigger_word"), new MessageContainer(mOutput));
+
+        }
+
+        try {
+            mOutput.flush();
+            mOutput.close();
+            mSocket.close();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 
     private void addQueryProperty(HashMap<String, String> dataDict) {
-      String query =  dataDict.get("text");
+         String query =  dataDict.get("text");
          query =  query.replace(dataDict.get("trigger_word"),"");
 
-        dataDict.put("msg",query);
+         dataDict.put("msg",query);
     }
 }

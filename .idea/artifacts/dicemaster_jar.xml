@@ -4,6 +4,7 @@
     <root id="archive" name="dicemaster.jar">
       <element id="module-output" name="dicemaster" />
       <element id="extracted-dir" path="/usr/share/java/commons-httpclient.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/gson-2.6.2.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
