@@ -11,6 +11,8 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import slackchat.interfaces.MessageReceiver;
+import slackchat.models.Rtm.MessageContainer;
+import slackchat.models.bot.Channels;
 import slackchat.models.bot.RtmResponse;
 
 import java.io.IOException;
@@ -23,10 +25,12 @@ public class RtmSession {
     private RtmBot bot;
     private static Gson gson;
     private RtmResponse mSessionInfo;
-
+    private static String mToken;
 
     public RtmSession(String token) {
         gson = new GsonBuilder().create();
+        mToken = token;
+
         HttpClient httpClient = HttpClients.createDefault();
         HttpGet httpGet = new HttpGet("https://slack.com/api/rtm.start?token=" + token);
         try {
@@ -53,8 +57,24 @@ public class RtmSession {
         return mSessionInfo;
     }
 
+    public static String getToken() {
+        return mToken;
+    }
+
     public static Gson getGsonInstance() {
         return gson;
+    }
+
+
+    public Channels openDMSession(String user)
+    {
+       Channels dmChannel  = bot.createDMChannel(user);
+
+        return dmChannel;
+    }
+
+    public void setTypingStatus(MessageContainer.MessageTypes type, String Channel){
+        bot.setTypingStatus(type,Channel);
     }
 
     public void sendSimpleMessage(String msg, String channel) {

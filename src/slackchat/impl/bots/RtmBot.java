@@ -6,10 +6,14 @@ import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.annotations.*;
 import org.eclipse.jetty.websocket.client.WebSocketClient;
+import slackchat.impl.webapi.OpenDM;
 import slackchat.interfaces.MessageReceiver;
 import slackchat.models.Rtm.BotMessage;
 import slackchat.models.Rtm.MessageContainer;
+import slackchat.models.bot.Channels;
 import slackchat.models.bot.RtmResponse;
+import slackchat.models.webcalls.ResponseContainer;
+import slackchat.models.webcalls.WebContainer;
 
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
@@ -98,7 +102,7 @@ public class RtmBot {
     {
         BotMessage msg = new BotMessage();
         msg.setId(1);
-        msg.setType(MessageContainer.types.message);
+        msg.setType(MessageContainer.MessageTypes.message);
         msg.setChannel(channel);
         msg.setText(message);
         String payload =  gson.toJson(msg, BotMessage.class);
@@ -108,5 +112,30 @@ public class RtmBot {
             e.printStackTrace();
         }
 
+    }
+
+    public Channels createDMChannel(String user)
+    {
+        WebContainer params = new WebContainer();
+        params.setUser(user);
+        params.setToken(RtmSession.getToken());
+        OpenDM dm = new OpenDM(RtmSession.getToken(),"im.open" , params);
+        ResponseContainer message = dm.executeCall();
+
+        return message.getChannel();
+    }
+
+    public void setTypingStatus(MessageContainer.MessageTypes type, String channel) {
+        BotMessage msg = new BotMessage();
+        msg.setId(1);
+        msg.setChannel(channel);
+        msg.setType(type);
+
+        String payload =  gson.toJson(msg, BotMessage.class);
+        try {
+            socketIface.getRemote().sendString(payload);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

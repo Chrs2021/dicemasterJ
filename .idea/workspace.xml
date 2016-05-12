@@ -30,26 +30,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dicebot/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.4304419">
+              <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1431#2045#0" expanded="true" />
-                <element signature="e#2044#2045#0" expanded="true" />
+                <element signature="e#1795#2267#0" expanded="true" />
+                <element signature="e#2266#2267#0" expanded="true" />
+                <element signature="e#2405#3342#0" expanded="true" />
+                <element signature="e#3341#3342#0" expanded="true" />
+                <element signature="e#3800#4608#0" expanded="true" />
+                <element signature="e#4607#4608#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messenger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/Messenger.java">
+      <file leaf-file-name="BotMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/BotMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="61" />
+              <caret line="20" column="52" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="52" />
+              <folding>
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,30 +68,132 @@
       <file leaf-file-name="RtmSession.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/slackchat/impl/bots/RtmSession.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1611#1612#0" expanded="true" />
-                <element signature="e#1654#1655#0" expanded="true" />
-                <element signature="e#1689#1690#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1825#1826#0" expanded="true" />
                 <element signature="e#1870#1871#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RtmBot.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MessageContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/MessageContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#798#799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RtmBot.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/slackchat/impl/bots/RtmBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebCall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webapi/WebCall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="44" column="100" selection-start-line="44" selection-start-column="100" selection-end-line="44" selection-end-column="100" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenDM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webapi/OpenDM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OutgoingData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/models/OutgoingData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/models/webcalls/WebContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#684#685#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#743#744#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#900#901#0" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1018#1019#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1120#1121#0" expanded="true" />
+                <element signature="e#1152#1153#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
+                <element signature="e#1222#1223#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1326#1327#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1431#1432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseContainer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/slackchat/models/webcalls/ResponseContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#516#517#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,11 +253,16 @@
         <option value="$PROJECT_DIR$/src/slackchat/interfaces/MessageReceiver.java" />
         <option value="$PROJECT_DIR$/archivedCode.txt" />
         <option value="$PROJECT_DIR$/src/slackchat/impl/webhooks/Messenger.java" />
-        <option value="$PROJECT_DIR$/src/slackchat/models/Rtm/MessageContainer.java" />
         <option value="$PROJECT_DIR$/src/slackchat/models/Rtm/BotMessage.java" />
-        <option value="$PROJECT_DIR$/src/dicebot/Main.java" />
-        <option value="$PROJECT_DIR$/src/slackchat/impl/bots/RtmSession.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/interfaces/WebResponse.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/models/webcalls/webcontainer.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/impl/webapi/OpenDM.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/models/Rtm/MessageContainer.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/models/webcalls/ResponseContainer.java" />
         <option value="$PROJECT_DIR$/src/slackchat/impl/bots/RtmBot.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/impl/webapi/WebCall.java" />
+        <option value="$PROJECT_DIR$/src/slackchat/impl/bots/RtmSession.java" />
+        <option value="$PROJECT_DIR$/src/dicebot/Main.java" />
       </list>
     </option>
   </component>
@@ -156,10 +274,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="88" />
+    <option name="y" value="827" />
+    <option name="width" value="1920" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,8 +304,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,6 +337,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="slackchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slackchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webcalls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slackchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rtm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,6 +462,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dicemasterJ" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="slackchat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bots" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -329,6 +527,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +545,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="dicebot.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value=" 80 xoxb-42162009828-LIefZ9Ooa8wIs5pGZzrpSNYy" />
+      <option name="PROGRAM_PARAMETERS" value=" 8000 xoxb-42162009828-LIefZ9Ooa8wIs5pGZzrpSNYy" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -356,6 +556,65 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -465,18 +724,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -542,9 +789,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -553,38 +798,37 @@
       <changelist id="87ec8f5e-0169-4788-9dbc-bc59e7c10378" name="Default" comment="" />
       <created>1452028518538</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1452028518538</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="88" y="827" width="1920" height="1032" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29583332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.298633" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13854167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39852008" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28523862" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -600,10 +844,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dicebot/Main.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -612,37 +864,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dicebot/Communicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dicebot/Duel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
+        <state vertical-scroll-proportion="0.0">
           <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#1795#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2405#3342#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#3800#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -650,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/ReplyMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
@@ -658,17 +898,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/QueryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/webhooksIncoming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
+        <state vertical-scroll-proportion="0.0">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
@@ -676,7 +913,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/OutgoingData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state vertical-scroll-proportion="0.0">
           <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
           <folding />
         </state>
@@ -684,7 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/interfaces/MessageClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
@@ -692,7 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Communicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
           <folding />
         </state>
@@ -700,7 +937,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#844#845#0" expanded="false" />
@@ -763,49 +1000,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#1795#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2405#3342#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#3800#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/webhookSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/QueryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="88" column="64" selection-start-line="88" selection-start-column="64" selection-end-line="88" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dicemaster.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#844#845#0" expanded="false" />
@@ -868,15 +1101,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dicemaster.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/interfaces/MessageClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state vertical-scroll-proportion="0.0">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
@@ -884,7 +1116,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/ReplyMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
           <folding />
         </state>
@@ -892,7 +1124,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Communicator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
+        <state vertical-scroll-proportion="0.0">
           <caret line="52" column="15" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="15" />
           <folding />
         </state>
@@ -900,24 +1132,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dicebot/Duel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/net/www/http/HttpClient.class" />
-    <entry file="file://$PROJECT_DIR$/src/slackchat/models/OutgoingData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/webhookSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
@@ -925,28 +1149,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Icons.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
+        <state vertical-scroll-proportion="0.0">
           <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#225#0" expanded="false" />
-            <element signature="e#255#256#0" expanded="false" />
-            <element signature="e#308#309#0" expanded="false" />
-            <element signature="e#348#349#0" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#419#420#0" expanded="false" />
-            <element signature="e#472#473#0" expanded="false" />
-            <element signature="e#512#513#0" expanded="false" />
-            <element signature="e#552#553#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Bots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#206#207#0" expanded="false" />
@@ -967,7 +1177,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Users.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="e#324#325#0" expanded="false" />
@@ -1004,99 +1214,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Dnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
+        <state vertical-scroll-proportion="0.0">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#321#322#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#438#439#0" expanded="false" />
-            <element signature="e#485#486#0" expanded="false" />
-            <element signature="e#523#524#0" expanded="false" />
-            <element signature="e#590#591#0" expanded="false" />
-            <element signature="e#644#645#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#733#734#0" expanded="false" />
-            <element signature="e#804#805#0" expanded="false" />
-            <element signature="e#862#863#0" expanded="false" />
-            <element signature="e#905#906#0" expanded="false" />
-            <element signature="e#939#940#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1044#1045#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Subteams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state vertical-scroll-proportion="0.0">
           <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="e#552#553#0" expanded="false" />
-            <element signature="e#583#584#0" expanded="false" />
-            <element signature="e#636#637#0" expanded="false" />
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#714#715#0" expanded="false" />
-            <element signature="e#743#744#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#828#829#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#901#902#0" expanded="false" />
-            <element signature="e#956#957#0" expanded="false" />
-            <element signature="e#998#999#0" expanded="false" />
-            <element signature="e#1040#1041#0" expanded="false" />
-            <element signature="e#1073#1074#0" expanded="false" />
-            <element signature="e#1130#1131#0" expanded="false" />
-            <element signature="e#1174#1175#0" expanded="false" />
-            <element signature="e#1220#1221#0" expanded="false" />
-            <element signature="e#1257#1258#0" expanded="false" />
-            <element signature="e#1322#1323#0" expanded="false" />
-            <element signature="e#1374#1375#0" expanded="false" />
-            <element signature="e#1414#1415#0" expanded="false" />
-            <element signature="e#1445#1446#0" expanded="false" />
-            <element signature="e#1498#1499#0" expanded="false" />
-            <element signature="e#1538#1539#0" expanded="false" />
-            <element signature="e#1578#1579#0" expanded="false" />
-            <element signature="e#1609#1610#0" expanded="false" />
-            <element signature="e#1662#1663#0" expanded="false" />
-            <element signature="e#1702#1703#0" expanded="false" />
-            <element signature="e#1743#1744#0" expanded="false" />
-            <element signature="e#1775#1776#0" expanded="false" />
-            <element signature="e#1830#1831#0" expanded="false" />
-            <element signature="e#1872#1873#0" expanded="false" />
-            <element signature="e#1913#1914#0" expanded="false" />
-            <element signature="e#1945#1946#0" expanded="false" />
-            <element signature="e#2000#2001#0" expanded="false" />
-            <element signature="e#2042#2043#0" expanded="false" />
-            <element signature="e#2094#2095#0" expanded="false" />
-            <element signature="e#2137#2138#0" expanded="false" />
-            <element signature="e#2318#2319#0" expanded="false" />
-            <element signature="e#2349#2350#0" expanded="false" />
-            <element signature="e#2402#2403#0" expanded="false" />
-            <element signature="e#2442#2443#0" expanded="false" />
-            <element signature="e#2484#2485#0" expanded="false" />
-            <element signature="e#2517#2518#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2618#2619#0" expanded="false" />
-            <element signature="e#2661#2662#0" expanded="false" />
-            <element signature="e#2695#2696#0" expanded="false" />
-            <element signature="e#2754#2755#0" expanded="false" />
-            <element signature="e#2800#2801#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Ims.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
             <element signature="e#439#440#0" expanded="false" />
@@ -1143,7 +1282,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Channels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
+        <state vertical-scroll-proportion="0.0">
           <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
           <folding>
             <element signature="e#403#404#0" expanded="false" />
@@ -1188,7 +1327,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/RtmResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3128">
+        <state vertical-scroll-proportion="0.0">
           <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
           <folding>
             <element signature="e#573#574#0" expanded="false" />
@@ -1257,7 +1396,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Self.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
+        <state vertical-scroll-proportion="0.0">
           <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding>
             <element signature="e#269#270#0" expanded="false" />
@@ -1286,7 +1425,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Team.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
+        <state vertical-scroll-proportion="0.0">
           <caret line="125" column="5" selection-start-line="125" selection-start-column="5" selection-end-line="125" selection-end-column="5" />
           <folding>
             <element signature="e#443#444#0" expanded="false" />
@@ -1331,491 +1470,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Icon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
+        <state vertical-scroll-proportion="0.0">
           <caret line="90" column="0" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="e#351#352#0" expanded="false" />
-            <element signature="e#382#383#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#475#476#0" expanded="false" />
-            <element signature="e#515#516#0" expanded="false" />
-            <element signature="e#546#547#0" expanded="false" />
-            <element signature="e#599#600#0" expanded="false" />
-            <element signature="e#639#640#0" expanded="false" />
-            <element signature="e#679#680#0" expanded="false" />
-            <element signature="e#710#711#0" expanded="false" />
-            <element signature="e#763#764#0" expanded="false" />
-            <element signature="e#803#804#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-            <element signature="e#947#948#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1038#1039#0" expanded="false" />
-            <element signature="e#1070#1071#0" expanded="false" />
-            <element signature="e#1125#1126#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1208#1209#0" expanded="false" />
-            <element signature="e#1240#1241#0" expanded="false" />
-            <element signature="e#1295#1296#0" expanded="false" />
-            <element signature="e#1337#1338#0" expanded="false" />
-            <element signature="e#1377#1378#0" expanded="false" />
-            <element signature="e#1408#1409#0" expanded="false" />
-            <element signature="e#1461#1462#0" expanded="false" />
-            <element signature="e#1501#1502#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/QueryHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="12" selection-start-line="32" selection-start-column="11" selection-end-line="33" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/models/bot/Prefs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341">
+        <state vertical-scroll-proportion="0.0">
           <caret line="822" column="0" selection-start-line="822" selection-start-column="0" selection-end-line="822" selection-end-column="0" />
-          <folding>
-            <element signature="e#5696#5697#0" expanded="false" />
-            <element signature="e#5740#5741#0" expanded="false" />
-            <element signature="e#5930#5931#0" expanded="false" />
-            <element signature="e#5966#5967#0" expanded="false" />
-            <element signature="e#6029#6030#0" expanded="false" />
-            <element signature="e#6079#6080#0" expanded="false" />
-            <element signature="e#6123#6124#0" expanded="false" />
-            <element signature="e#6158#6159#0" expanded="false" />
-            <element signature="e#6219#6220#0" expanded="false" />
-            <element signature="e#6267#6268#0" expanded="false" />
-            <element signature="e#6315#6316#0" expanded="false" />
-            <element signature="e#6354#6355#0" expanded="false" />
-            <element signature="e#6423#6424#0" expanded="false" />
-            <element signature="e#6479#6480#0" expanded="false" />
-            <element signature="e#6524#6525#0" expanded="false" />
-            <element signature="e#6560#6561#0" expanded="false" />
-            <element signature="e#6623#6624#0" expanded="false" />
-            <element signature="e#6673#6674#0" expanded="false" />
-            <element signature="e#6725#6726#0" expanded="false" />
-            <element signature="e#6768#6769#0" expanded="false" />
-            <element signature="e#6972#6973#0" expanded="false" />
-            <element signature="e#7026#7027#0" expanded="false" />
-            <element signature="e#7260#7261#0" expanded="false" />
-            <element signature="e#7300#7301#0" expanded="false" />
-            <element signature="e#7371#7372#0" expanded="false" />
-            <element signature="e#7429#7430#0" expanded="false" />
-            <element signature="e#7482#7483#0" expanded="false" />
-            <element signature="e#7526#7527#0" expanded="false" />
-            <element signature="e#7720#7721#0" expanded="false" />
-            <element signature="e#7760#7761#0" expanded="false" />
-            <element signature="e#7831#7832#0" expanded="false" />
-            <element signature="e#7889#7890#0" expanded="false" />
-            <element signature="e#7936#7937#0" expanded="false" />
-            <element signature="e#7974#7975#0" expanded="false" />
-            <element signature="e#8041#8042#0" expanded="false" />
-            <element signature="e#8095#8096#0" expanded="false" />
-            <element signature="e#8139#8140#0" expanded="false" />
-            <element signature="e#8174#8175#0" expanded="false" />
-            <element signature="e#8235#8236#0" expanded="false" />
-            <element signature="e#8283#8284#0" expanded="false" />
-            <element signature="e#8330#8331#0" expanded="false" />
-            <element signature="e#8368#8369#0" expanded="false" />
-            <element signature="e#8435#8436#0" expanded="false" />
-            <element signature="e#8489#8490#0" expanded="false" />
-            <element signature="e#8556#8557#0" expanded="false" />
-            <element signature="e#8614#8615#0" expanded="false" />
-            <element signature="e#8864#8865#0" expanded="false" />
-            <element signature="e#8904#8905#0" expanded="false" />
-            <element signature="e#8975#8976#0" expanded="false" />
-            <element signature="e#9033#9034#0" expanded="false" />
-            <element signature="e#9079#9080#0" expanded="false" />
-            <element signature="e#9116#9117#0" expanded="false" />
-            <element signature="e#9181#9182#0" expanded="false" />
-            <element signature="e#9233#9234#0" expanded="false" />
-            <element signature="e#9283#9284#0" expanded="false" />
-            <element signature="e#9324#9325#0" expanded="false" />
-            <element signature="e#9397#9398#0" expanded="false" />
-            <element signature="e#9457#9458#0" expanded="false" />
-            <element signature="e#9505#9506#0" expanded="false" />
-            <element signature="e#9543#9544#0" expanded="false" />
-            <element signature="e#9610#9611#0" expanded="false" />
-            <element signature="e#9664#9665#0" expanded="false" />
-            <element signature="e#9706#9707#0" expanded="false" />
-            <element signature="e#9739#9740#0" expanded="false" />
-            <element signature="e#9796#9797#0" expanded="false" />
-            <element signature="e#9840#9841#0" expanded="false" />
-            <element signature="e#9883#9884#0" expanded="false" />
-            <element signature="e#9917#9918#0" expanded="false" />
-            <element signature="e#9976#9977#0" expanded="false" />
-            <element signature="e#10022#10023#0" expanded="false" />
-            <element signature="e#10061#10062#0" expanded="false" />
-            <element signature="e#10091#10092#0" expanded="false" />
-            <element signature="e#10142#10143#0" expanded="false" />
-            <element signature="e#10180#10181#0" expanded="false" />
-            <element signature="e#10242#10243#0" expanded="false" />
-            <element signature="e#10295#10296#0" expanded="false" />
-            <element signature="e#10524#10525#0" expanded="false" />
-            <element signature="e#10563#10564#0" expanded="false" />
-            <element signature="e#10632#10633#0" expanded="false" />
-            <element signature="e#10688#10689#0" expanded="false" />
-            <element signature="e#10734#10735#0" expanded="false" />
-            <element signature="e#10771#10772#0" expanded="false" />
-            <element signature="e#10836#10837#0" expanded="false" />
-            <element signature="e#10888#10889#0" expanded="false" />
-            <element signature="e#10933#10934#0" expanded="false" />
-            <element signature="e#10969#10970#0" expanded="false" />
-            <element signature="e#11032#11033#0" expanded="false" />
-            <element signature="e#11082#11083#0" expanded="false" />
-            <element signature="e#11125#11126#0" expanded="false" />
-            <element signature="e#11159#11160#0" expanded="false" />
-            <element signature="e#11218#11219#0" expanded="false" />
-            <element signature="e#11264#11265#0" expanded="false" />
-            <element signature="e#11317#11318#0" expanded="false" />
-            <element signature="e#11361#11362#0" expanded="false" />
-            <element signature="e#11555#11556#0" expanded="false" />
-            <element signature="e#11595#11596#0" expanded="false" />
-            <element signature="e#11666#11667#0" expanded="false" />
-            <element signature="e#11724#11725#0" expanded="false" />
-            <element signature="e#11767#11768#0" expanded="false" />
-            <element signature="e#11801#11802#0" expanded="false" />
-            <element signature="e#11860#11861#0" expanded="false" />
-            <element signature="e#11906#11907#0" expanded="false" />
-            <element signature="e#11961#11962#0" expanded="false" />
-            <element signature="e#12007#12008#0" expanded="false" />
-            <element signature="e#12210#12211#0" expanded="false" />
-            <element signature="e#12251#12252#0" expanded="false" />
-            <element signature="e#12324#12325#0" expanded="false" />
-            <element signature="e#12384#12385#0" expanded="false" />
-            <element signature="e#12445#12446#0" expanded="false" />
-            <element signature="e#12497#12498#0" expanded="false" />
-            <element signature="e#12728#12729#0" expanded="false" />
-            <element signature="e#12773#12774#0" expanded="false" />
-            <element signature="e#12966#12967#0" expanded="false" />
-            <element signature="e#13001#13002#0" expanded="false" />
-            <element signature="e#13062#13063#0" expanded="false" />
-            <element signature="e#13110#13111#0" expanded="false" />
-            <element signature="e#13169#13170#0" expanded="false" />
-            <element signature="e#13219#13220#0" expanded="false" />
-            <element signature="e#13450#13451#0" expanded="false" />
-            <element signature="e#13503#13504#0" expanded="false" />
-            <element signature="e#13726#13727#0" expanded="false" />
-            <element signature="e#13759#13760#0" expanded="false" />
-            <element signature="e#13816#13817#0" expanded="false" />
-            <element signature="e#13860#13861#0" expanded="false" />
-            <element signature="e#13903#13904#0" expanded="false" />
-            <element signature="e#13937#13938#0" expanded="false" />
-            <element signature="e#13996#13997#0" expanded="false" />
-            <element signature="e#14042#14043#0" expanded="false" />
-            <element signature="e#14083#14084#0" expanded="false" />
-            <element signature="e#14115#14116#0" expanded="false" />
-            <element signature="e#14170#14171#0" expanded="false" />
-            <element signature="e#14212#14213#0" expanded="false" />
-            <element signature="e#14264#14265#0" expanded="false" />
-            <element signature="e#14307#14308#0" expanded="false" />
-            <element signature="e#14508#14509#0" expanded="false" />
-            <element signature="e#14559#14560#0" expanded="false" />
-            <element signature="e#14779#14780#0" expanded="false" />
-            <element signature="e#14817#14818#0" expanded="false" />
-            <element signature="e#14884#14885#0" expanded="false" />
-            <element signature="e#14938#14939#0" expanded="false" />
-            <element signature="e#14993#14994#0" expanded="false" />
-            <element signature="e#15039#15040#0" expanded="false" />
-            <element signature="e#15241#15242#0" expanded="false" />
-            <element signature="e#15281#15282#0" expanded="false" />
-            <element signature="e#15352#15353#0" expanded="false" />
-            <element signature="e#15410#15411#0" expanded="false" />
-            <element signature="e#15462#15463#0" expanded="false" />
-            <element signature="e#15505#15506#0" expanded="false" />
-            <element signature="e#15695#15696#0" expanded="false" />
-            <element signature="e#15735#15736#0" expanded="false" />
-            <element signature="e#15806#15807#0" expanded="false" />
-            <element signature="e#15864#15865#0" expanded="false" />
-            <element signature="e#15907#15908#0" expanded="false" />
-            <element signature="e#15941#15942#0" expanded="false" />
-            <element signature="e#16000#16001#0" expanded="false" />
-            <element signature="e#16046#16047#0" expanded="false" />
-            <element signature="e#16099#16100#0" expanded="false" />
-            <element signature="e#16143#16144#0" expanded="false" />
-            <element signature="e#16329#16330#0" expanded="false" />
-            <element signature="e#16361#16362#0" expanded="false" />
-            <element signature="e#16416#16417#0" expanded="false" />
-            <element signature="e#16458#16459#0" expanded="false" />
-            <element signature="e#16518#16519#0" expanded="false" />
-            <element signature="e#16569#16570#0" expanded="false" />
-            <element signature="e#16798#16799#0" expanded="false" />
-            <element signature="e#16845#16846#0" expanded="false" />
-            <element signature="e#17055#17056#0" expanded="false" />
-            <element signature="e#17099#17100#0" expanded="false" />
-            <element signature="e#17307#17308#0" expanded="false" />
-            <element signature="e#17361#17362#0" expanded="false" />
-            <element signature="e#17593#17594#0" expanded="false" />
-            <element signature="e#17631#17632#0" expanded="false" />
-            <element signature="e#17698#17699#0" expanded="false" />
-            <element signature="e#17752#17753#0" expanded="false" />
-            <element signature="e#17815#17816#0" expanded="false" />
-            <element signature="e#17868#17869#0" expanded="false" />
-            <element signature="e#18109#18110#0" expanded="false" />
-            <element signature="e#18160#18161#0" expanded="false" />
-            <element signature="e#18382#18383#0" expanded="false" />
-            <element signature="e#18422#18423#0" expanded="false" />
-            <element signature="e#18493#18494#0" expanded="false" />
-            <element signature="e#18551#18552#0" expanded="false" />
-            <element signature="e#18595#18596#0" expanded="false" />
-            <element signature="e#18630#18631#0" expanded="false" />
-            <element signature="e#18691#18692#0" expanded="false" />
-            <element signature="e#18739#18740#0" expanded="false" />
-            <element signature="e#18788#18789#0" expanded="false" />
-            <element signature="e#18828#18829#0" expanded="false" />
-            <element signature="e#18899#18900#0" expanded="false" />
-            <element signature="e#18957#18958#0" expanded="false" />
-            <element signature="e#19002#19003#0" expanded="false" />
-            <element signature="e#19038#19039#0" expanded="false" />
-            <element signature="e#19101#19102#0" expanded="false" />
-            <element signature="e#19151#19152#0" expanded="false" />
-            <element signature="e#19204#19205#0" expanded="false" />
-            <element signature="e#19248#19249#0" expanded="false" />
-            <element signature="e#19443#19444#0" expanded="false" />
-            <element signature="e#19484#19485#0" expanded="false" />
-            <element signature="e#19557#19558#0" expanded="false" />
-            <element signature="e#19617#19618#0" expanded="false" />
-            <element signature="e#19671#19672#0" expanded="false" />
-            <element signature="e#19716#19717#0" expanded="false" />
-            <element signature="e#19908#19909#0" expanded="false" />
-            <element signature="e#19942#19943#0" expanded="false" />
-            <element signature="e#20001#20002#0" expanded="false" />
-            <element signature="e#20047#20048#0" expanded="false" />
-            <element signature="e#20102#20103#0" expanded="false" />
-            <element signature="e#20148#20149#0" expanded="false" />
-            <element signature="e#20361#20362#0" expanded="false" />
-            <element signature="e#20412#20413#0" expanded="false" />
-            <element signature="e#20639#20640#0" expanded="false" />
-            <element signature="e#20684#20685#0" expanded="false" />
-            <element signature="e#20876#20877#0" expanded="false" />
-            <element signature="e#20910#20911#0" expanded="false" />
-            <element signature="e#20969#20970#0" expanded="false" />
-            <element signature="e#21015#21016#0" expanded="false" />
-            <element signature="e#21058#21059#0" expanded="false" />
-            <element signature="e#21092#21093#0" expanded="false" />
-            <element signature="e#21151#21152#0" expanded="false" />
-            <element signature="e#21197#21198#0" expanded="false" />
-            <element signature="e#21239#21240#0" expanded="false" />
-            <element signature="e#21272#21273#0" expanded="false" />
-            <element signature="e#21329#21330#0" expanded="false" />
-            <element signature="e#21373#21374#0" expanded="false" />
-            <element signature="e#21427#21428#0" expanded="false" />
-            <element signature="e#21472#21473#0" expanded="false" />
-            <element signature="e#21672#21673#0" expanded="false" />
-            <element signature="e#21714#21715#0" expanded="false" />
-            <element signature="e#21789#21790#0" expanded="false" />
-            <element signature="e#21851#21852#0" expanded="false" />
-            <element signature="e#21910#21911#0" expanded="false" />
-            <element signature="e#21960#21961#0" expanded="false" />
-            <element signature="e#22180#22181#0" expanded="false" />
-            <element signature="e#22222#22223#0" expanded="false" />
-            <element signature="e#22297#22298#0" expanded="false" />
-            <element signature="e#22359#22360#0" expanded="false" />
-            <element signature="e#22413#22414#0" expanded="false" />
-            <element signature="e#22458#22459#0" expanded="false" />
-            <element signature="e#22676#22677#0" expanded="false" />
-            <element signature="e#22736#22737#0" expanded="false" />
-            <element signature="e#22991#22992#0" expanded="false" />
-            <element signature="e#23028#23029#0" expanded="false" />
-            <element signature="e#23093#23094#0" expanded="false" />
-            <element signature="e#23145#23146#0" expanded="false" />
-            <element signature="e#23190#23191#0" expanded="false" />
-            <element signature="e#23226#23227#0" expanded="false" />
-            <element signature="e#23289#23290#0" expanded="false" />
-            <element signature="e#23339#23340#0" expanded="false" />
-            <element signature="e#23389#23390#0" expanded="false" />
-            <element signature="e#23430#23431#0" expanded="false" />
-            <element signature="e#23503#23504#0" expanded="false" />
-            <element signature="e#23563#23564#0" expanded="false" />
-            <element signature="e#23624#23625#0" expanded="false" />
-            <element signature="e#23676#23677#0" expanded="false" />
-            <element signature="e#23915#23916#0" expanded="false" />
-            <element signature="e#23968#23969#0" expanded="false" />
-            <element signature="e#24204#24205#0" expanded="false" />
-            <element signature="e#24250#24251#0" expanded="false" />
-            <element signature="e#24452#24453#0" expanded="false" />
-            <element signature="e#24492#24493#0" expanded="false" />
-            <element signature="e#24563#24564#0" expanded="false" />
-            <element signature="e#24621#24622#0" expanded="false" />
-            <element signature="e#24678#24679#0" expanded="false" />
-            <element signature="e#24726#24727#0" expanded="false" />
-            <element signature="e#24941#24942#0" expanded="false" />
-            <element signature="e#24986#24987#0" expanded="false" />
-            <element signature="e#25190#25191#0" expanded="false" />
-            <element signature="e#25236#25237#0" expanded="false" />
-            <element signature="e#25432#25433#0" expanded="false" />
-            <element signature="e#25466#25467#0" expanded="false" />
-            <element signature="e#25525#25526#0" expanded="false" />
-            <element signature="e#25571#25572#0" expanded="false" />
-            <element signature="e#25625#25626#0" expanded="false" />
-            <element signature="e#25670#25671#0" expanded="false" />
-            <element signature="e#25872#25873#0" expanded="false" />
-            <element signature="e#25916#25917#0" expanded="false" />
-            <element signature="e#26121#26122#0" expanded="false" />
-            <element signature="e#26172#26173#0" expanded="false" />
-            <element signature="e#26396#26397#0" expanded="false" />
-            <element signature="e#26438#26439#0" expanded="false" />
-            <element signature="e#26513#26514#0" expanded="false" />
-            <element signature="e#26575#26576#0" expanded="false" />
-            <element signature="e#26629#26630#0" expanded="false" />
-            <element signature="e#26674#26675#0" expanded="false" />
-            <element signature="e#26879#26880#0" expanded="false" />
-            <element signature="e#26926#26927#0" expanded="false" />
-            <element signature="e#27138#27139#0" expanded="false" />
-            <element signature="e#27184#27185#0" expanded="false" />
-            <element signature="e#27388#27389#0" expanded="false" />
-            <element signature="e#27430#27431#0" expanded="false" />
-            <element signature="e#27505#27506#0" expanded="false" />
-            <element signature="e#27567#27568#0" expanded="false" />
-            <element signature="e#27616#27617#0" expanded="false" />
-            <element signature="e#27656#27657#0" expanded="false" />
-            <element signature="e#27727#27728#0" expanded="false" />
-            <element signature="e#27785#27786#0" expanded="false" />
-            <element signature="e#27831#27832#0" expanded="false" />
-            <element signature="e#27868#27869#0" expanded="false" />
-            <element signature="e#27933#27934#0" expanded="false" />
-            <element signature="e#27985#27986#0" expanded="false" />
-            <element signature="e#28036#28037#0" expanded="false" />
-            <element signature="e#28078#28079#0" expanded="false" />
-            <element signature="e#28153#28154#0" expanded="false" />
-            <element signature="e#28215#28216#0" expanded="false" />
-            <element signature="e#28266#28267#0" expanded="false" />
-            <element signature="e#28308#28309#0" expanded="false" />
-            <element signature="e#28383#28384#0" expanded="false" />
-            <element signature="e#28445#28446#0" expanded="false" />
-            <element signature="e#28500#28501#0" expanded="false" />
-            <element signature="e#28546#28547#0" expanded="false" />
-            <element signature="e#28746#28747#0" expanded="false" />
-            <element signature="e#28784#28785#0" expanded="false" />
-            <element signature="e#28851#28852#0" expanded="false" />
-            <element signature="e#28905#28906#0" expanded="false" />
-            <element signature="e#28948#28949#0" expanded="false" />
-            <element signature="e#28982#28983#0" expanded="false" />
-            <element signature="e#29041#29042#0" expanded="false" />
-            <element signature="e#29087#29088#0" expanded="false" />
-            <element signature="e#29133#29134#0" expanded="false" />
-            <element signature="e#29170#29171#0" expanded="false" />
-            <element signature="e#29235#29236#0" expanded="false" />
-            <element signature="e#29287#29288#0" expanded="false" />
-            <element signature="e#29330#29331#0" expanded="false" />
-            <element signature="e#29364#29365#0" expanded="false" />
-            <element signature="e#29423#29424#0" expanded="false" />
-            <element signature="e#29469#29470#0" expanded="false" />
-            <element signature="e#29517#29518#0" expanded="false" />
-            <element signature="e#29556#29557#0" expanded="false" />
-            <element signature="e#29625#29626#0" expanded="false" />
-            <element signature="e#29681#29682#0" expanded="false" />
-            <element signature="e#29738#29739#0" expanded="false" />
-            <element signature="e#29786#29787#0" expanded="false" />
-            <element signature="e#30003#30004#0" expanded="false" />
-            <element signature="e#30050#30051#0" expanded="false" />
-            <element signature="e#30261#30262#0" expanded="false" />
-            <element signature="e#30306#30307#0" expanded="false" />
-            <element signature="e#30499#30500#0" expanded="false" />
-            <element signature="e#30534#30535#0" expanded="false" />
-            <element signature="e#30595#30596#0" expanded="false" />
-            <element signature="e#30643#30644#0" expanded="false" />
-            <element signature="e#30689#30690#0" expanded="false" />
-            <element signature="e#30726#30727#0" expanded="false" />
-            <element signature="e#30791#30792#0" expanded="false" />
-            <element signature="e#30843#30844#0" expanded="false" />
-            <element signature="e#30881#30882#0" expanded="false" />
-            <element signature="e#30910#30911#0" expanded="false" />
-            <element signature="e#30959#30960#0" expanded="false" />
-            <element signature="e#30995#30996#0" expanded="false" />
-            <element signature="e#31036#31037#0" expanded="false" />
-            <element signature="e#31068#31069#0" expanded="false" />
-            <element signature="e#31123#31124#0" expanded="false" />
-            <element signature="e#31165#31166#0" expanded="false" />
-            <element signature="e#31221#31222#0" expanded="false" />
-            <element signature="e#31268#31269#0" expanded="false" />
-            <element signature="e#31488#31489#0" expanded="false" />
-            <element signature="e#31542#31543#0" expanded="false" />
-            <element signature="e#31771#31772#0" expanded="false" />
-            <element signature="e#31806#31807#0" expanded="false" />
-            <element signature="e#31867#31868#0" expanded="false" />
-            <element signature="e#31915#31916#0" expanded="false" />
-            <element signature="e#31984#31985#0" expanded="false" />
-            <element signature="e#32044#32045#0" expanded="false" />
-            <element signature="e#32299#32300#0" expanded="false" />
-            <element signature="e#32336#32337#0" expanded="false" />
-            <element signature="e#32401#32402#0" expanded="false" />
-            <element signature="e#32453#32454#0" expanded="false" />
-            <element signature="e#32512#32513#0" expanded="false" />
-            <element signature="e#32562#32563#0" expanded="false" />
-            <element signature="e#32777#32778#0" expanded="false" />
-            <element signature="e#32814#32815#0" expanded="false" />
-            <element signature="e#32879#32880#0" expanded="false" />
-            <element signature="e#32931#32932#0" expanded="false" />
-            <element signature="e#32977#32978#0" expanded="false" />
-            <element signature="e#33014#33015#0" expanded="false" />
-            <element signature="e#33079#33080#0" expanded="false" />
-            <element signature="e#33131#33132#0" expanded="false" />
-            <element signature="e#33188#33189#0" expanded="false" />
-            <element signature="e#33236#33237#0" expanded="false" />
-            <element signature="e#33444#33445#0" expanded="false" />
-            <element signature="e#33482#33483#0" expanded="false" />
-            <element signature="e#33549#33550#0" expanded="false" />
-            <element signature="e#33603#33604#0" expanded="false" />
-            <element signature="e#33650#33651#0" expanded="false" />
-            <element signature="e#33688#33689#0" expanded="false" />
-            <element signature="e#33755#33756#0" expanded="false" />
-            <element signature="e#33809#33810#0" expanded="false" />
-            <element signature="e#33859#33860#0" expanded="false" />
-            <element signature="e#33900#33901#0" expanded="false" />
-            <element signature="e#33973#33974#0" expanded="false" />
-            <element signature="e#34033#34034#0" expanded="false" />
-            <element signature="e#34091#34092#0" expanded="false" />
-            <element signature="e#34140#34141#0" expanded="false" />
-            <element signature="e#34357#34358#0" expanded="false" />
-            <element signature="e#34400#34401#0" expanded="false" />
-            <element signature="e#34592#34593#0" expanded="false" />
-            <element signature="e#34634#34635#0" expanded="false" />
-            <element signature="e#34709#34710#0" expanded="false" />
-            <element signature="e#34771#34772#0" expanded="false" />
-            <element signature="e#34821#34822#0" expanded="false" />
-            <element signature="e#34862#34863#0" expanded="false" />
-            <element signature="e#34935#34936#0" expanded="false" />
-            <element signature="e#34995#34996#0" expanded="false" />
-            <element signature="e#35042#35043#0" expanded="false" />
-            <element signature="e#35080#35081#0" expanded="false" />
-            <element signature="e#35147#35148#0" expanded="false" />
-            <element signature="e#35201#35202#0" expanded="false" />
-            <element signature="e#35251#35252#0" expanded="false" />
-            <element signature="e#35292#35293#0" expanded="false" />
-            <element signature="e#35365#35366#0" expanded="false" />
-            <element signature="e#35425#35426#0" expanded="false" />
-            <element signature="e#35484#35485#0" expanded="false" />
-            <element signature="e#35534#35535#0" expanded="false" />
-            <element signature="e#35749#35750#0" expanded="false" />
-            <element signature="e#35786#35787#0" expanded="false" />
-            <element signature="e#35851#35852#0" expanded="false" />
-            <element signature="e#35903#35904#0" expanded="false" />
-            <element signature="e#35946#35947#0" expanded="false" />
-            <element signature="e#35980#35981#0" expanded="false" />
-            <element signature="e#36039#36040#0" expanded="false" />
-            <element signature="e#36085#36086#0" expanded="false" />
-            <element signature="e#36144#36145#0" expanded="false" />
-            <element signature="e#36194#36195#0" expanded="false" />
-            <element signature="e#36409#36410#0" expanded="false" />
-            <element signature="e#36446#36447#0" expanded="false" />
-            <element signature="e#36511#36512#0" expanded="false" />
-            <element signature="e#36563#36564#0" expanded="false" />
-            <element signature="e#36605#36606#0" expanded="false" />
-            <element signature="e#36638#36639#0" expanded="false" />
-            <element signature="e#36695#36696#0" expanded="false" />
-            <element signature="e#36739#36740#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/webhooksIncoming.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="38" selection-start-column="6" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
@@ -1823,128 +1499,187 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/websocket-client-9.3.8.v20160314.jar!/org/eclipse/jetty/websocket/client/WebSocketClient.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
+        <state vertical-scroll-proportion="0.0">
           <caret line="120" column="50" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archivedCode.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state vertical-scroll-proportion="0.0">
           <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/MessageContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding>
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/BotMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/interfaces/MessageReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/interfaces/WebResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webhooks/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/slackchat/impl/bots/SlackBot.java">
+    <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/BotMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="61" />
+          <caret line="20" column="52" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="52" />
+          <folding>
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dicebot/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/slackchat/models/OutgoingData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/models/webcalls/WebContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1018#1019#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1326#1327#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/models/webcalls/ResponseContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1431#2045#0" expanded="true" />
-            <element signature="e#2044#2045#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webapi/OpenDM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/impl/webapi/WebCall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="100" selection-start-line="44" selection-start-column="100" selection-end-line="44" selection-end-column="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/bots/RtmSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="21" selection-start-line="72" selection-start-column="21" selection-end-line="72" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1611#1612#0" expanded="true" />
-            <element signature="e#1654#1655#0" expanded="true" />
-            <element signature="e#1689#1690#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
             <element signature="e#1870#1871#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/slackchat/models/Rtm/MessageContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/slackchat/impl/bots/RtmBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dicebot/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4304419">
+          <caret line="103" column="0" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1795#2267#0" expanded="true" />
+            <element signature="e#2266#2267#0" expanded="true" />
+            <element signature="e#2405#3342#0" expanded="true" />
+            <element signature="e#3341#3342#0" expanded="true" />
+            <element signature="e#3800#4608#0" expanded="true" />
+            <element signature="e#4607#4608#0" expanded="true" />
           </folding>
         </state>
       </provider>

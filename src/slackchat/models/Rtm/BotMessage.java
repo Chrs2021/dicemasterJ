@@ -6,7 +6,7 @@ package slackchat.models.Rtm;
  */
 public class BotMessage {
     private int id;
-    private MessageContainer.types type;
+    private MessageContainer.MessageTypes type;
     private String channel;
     private String text;
 
@@ -14,11 +14,11 @@ public class BotMessage {
         return id;
     }
 
-    public void setType(MessageContainer.types type) {
+    public void setType(MessageContainer.MessageTypes type) {
         this.type = type;
     }
 
-    public MessageContainer.types getType() {
+    public MessageContainer.MessageTypes getType() {
         return type;
     }
 

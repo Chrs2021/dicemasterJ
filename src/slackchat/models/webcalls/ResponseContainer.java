@@ -1,18 +1,15 @@
-package slackchat.models.Rtm;
+package slackchat.models.webcalls;
 
-import java.nio.channels.Channel;
+import slackchat.models.Rtm.MessageContainer;
+import slackchat.models.bot.Channels;
 
 /**
- * Created by chrs2021 on 5/12/2016.
+ * Created by ccampbell3 on 5/12/2016.
  */
-public class MessageContainer {
-    public enum  MessageTypes{
-        error,message,presence_change,user_typing,typing,im_created,reconnect_url,hello
-    }
-
-    private String channel;
+public class ResponseContainer {
+    private Channels channel;
     private String user;
-    private MessageTypes type;
+    private MessageContainer.MessageTypes type;
     private Boolean ok;
     private String url;
     private double ts;
@@ -37,7 +34,7 @@ public class MessageContainer {
         return ok;
     }
 
-    public String getChannel() {
+    public Channels getChannel() {
         return channel;
     }
 
@@ -45,7 +42,7 @@ public class MessageContainer {
         return user;
     }
 
-    public MessageTypes getType() {
+    public MessageContainer.MessageTypes getType() {
         return type;
     }
 }
