@@ -1,4 +1,4 @@
-package slackchat.impl;
+package slackchat.impl.webhooks;
 
 import slackchat.interfaces.MessageClient;
 
@@ -86,7 +86,7 @@ public class QueryHandler implements Runnable {
 
         for (MessageClient client: messageClientListener) {
             client.messageReceived(mPostDataSet.get("user_name"),mPostDataSet.get("channel_name"),
-                    mPostDataSet.get("msg"), mPostDataSet.get("trigger_word"), new MessageContainer(mOutput));
+                    mPostDataSet.get("msg"), mPostDataSet.get("trigger_word"), new Messenger(mOutput));
 
         }
 

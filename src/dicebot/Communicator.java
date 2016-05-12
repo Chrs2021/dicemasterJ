@@ -58,7 +58,7 @@ public class Communicator {
 
     }
     /*
-    // The slackSendReq() functions are for sending hooks to Slack
+    // The slackSendReq() functions are for sending webhooks to Slack
     public static void slackSendReq(String url, String mesg, String name, String icon) {
         HttpClient hClient = new HttpClient();
         PostMethod pMethod = new PostMethod(url);

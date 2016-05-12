@@ -3,10 +3,15 @@
     <output-path>$PROJECT_DIR$/out/artifacts/dicemaster_jar</output-path>
     <root id="archive" name="dicemaster.jar">
       <element id="module-output" name="dicemaster" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/gson-2.6.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/httpclient-4.5.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/httpcore-4.4.4.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/httpclient-4.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/httpcore-4.4.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/websocket-api-9.3.8.v20160314.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/websocket-client-9.3.8.v20160314.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/websocket-common-9.3.8.v20160314.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/gson-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-util-9.3.8.v20160314.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/jetty-io-9.3.8.v20160314.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

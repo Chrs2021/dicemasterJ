@@ -1,17 +1,11 @@
-package slackchat.impl;
+package slackchat.impl.webhooks;
 
 import slackchat.interfaces.MessageClient;
 
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
 import java.net.ServerSocket;
-import java.net.Socket;
-import java.net.SocketAddress;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.RunnableFuture;
 
 /**
  * Created by chrs2021 on 5/10/2016.

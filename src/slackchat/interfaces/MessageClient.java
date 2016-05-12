@@ -1,6 +1,6 @@
 package slackchat.interfaces;
 
-import slackchat.impl.MessageContainer;
+import slackchat.impl.webhooks.Messenger;
 
 /**
  * Created by ccampbell3 on 5/11/2016.
@@ -15,6 +15,6 @@ public interface MessageClient {
      * @param trigger_word the trigger used to call the bot
      * @param outputWriter the output buffer to send back to slack
      */
-    void messageReceived(String from, String channel, String msg, String trigger_word, MessageContainer outputMessage);
+    void messageReceived(String from, String channel, String msg, String trigger_word, Messenger outputMessage);
 
 }

@@ -1,20 +1,18 @@
 package dicebot;
 
-import slackchat.impl.MessageContainer;
-import slackchat.impl.webhookSession;
-import slackchat.impl.webhooksIncoming;
-import slackchat.interfaces.MessageClient;
-import slackchat.models.OutgoingData;
+import slackchat.models.Rtm.MessageContainer;
+import slackchat.impl.bots.RtmSession;
+import slackchat.impl.webhooks.webhookSession;
+import slackchat.interfaces.MessageReceiver;
+import slackchat.models.bot.RtmResponse;
 
-import java.io.IOException;
 import java.math.BigInteger;
 import java.util.Map;
 import java.security.SecureRandom;
 
-public class Main {
+import static slackchat.models.Rtm.MessageContainer.types.*;
 
-    // The URL we're sending POSTs to
-    private static String URL = "https://hooks.slack.com/services/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";
+public class Main {
 
     // Basically taking the place of the tables, with the key being the ID (more or less)
     private static Map<String,Player> players;
@@ -31,47 +29,27 @@ public class Main {
         players.put(newID,new Player(newID,name));
     }
 
-    /*
-    // Function for testing communication with Slack
-    private static void chatTest() {
-        boolean go = true;
-        String mesg;
-        char answer;
-        Scanner scan = new Scanner(System.in);
-        while (go) {
-            System.out.println("What shall we say?");
-            mesg = scan.nextLine();
-            Communicator.slackSendReq(URL,mesg);
-            System.out.print("Continue? y/n");
-            answer = scan.nextLine().charAt(0);
-            if (answer == 'n') {
-                go = false;
-            }
-        }
-    }
-    */
+    //argument 1 is the port for webhooks, argument 2 is currently the authtoken for the bot
     public static void main(String[] args) {
         //this should be expanded out to do more stuff.
         webhookSession  session = new webhookSession("",Integer.parseInt(args[0]));
-
-        webhooksIncoming unsolicitedMessager = new webhooksIncoming(args[1]);
-
-        OutgoingData onlineMessage = new OutgoingData();
-        onlineMessage.setMessage("Bots Are Go!");
-        onlineMessage.setUser("Bot Manager");
-        onlineMessage.setChannel("#general");
-        onlineMessage.setIcon(":100:");
-        unsolicitedMessager.SendMessage(onlineMessage);
-
-        session.addBotListener(new MessageClient() {
+        final RtmSession botSession = new RtmSession(args[1]);
+        final RtmResponse sessionInfo = botSession.getSessionInfo();
+        botSession.AddMessageListener(new MessageReceiver() {
             @Override
-            public void messageReceived(String from, String channel, String msg, String trigger_word, MessageContainer outputMessage) {
-                //this is a bot response method...
-               outputMessage.setUsername(trigger_word);
-                outputMessage.setIcon(":ghost:");
-                outputMessage.setMessage(msg);
-                outputMessage.sendMessage();
+            public void messageReceived(MessageContainer message){
+                if(message.getType()!=null)
+                switch (message.getType())
+                {
+                    case message:
+                        if(message.getText()!=null && message.getText().contains(sessionInfo.getSelf().getName()))
+                        {
+                            botSession.sendSimpleMessage("Stop talking about me!!!",sessionInfo.getChannels()[0].getId());
+                        }
+                        break;
+                }
             }
         });
+
     }
 }

@@ -1,4 +1,4 @@
-package slackchat.impl;
+package slackchat.impl.webhooks;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -10,12 +10,12 @@ import java.io.IOException;
 /**
  * Created by ccampbell3 on 5/11/2016.
  */
-public class MessageContainer {
+public class Messenger {
     private ReplyMessage messageToSend = new ReplyMessage();
     private BufferedWriter outputWriter;
     private Gson gson;
 
-    public MessageContainer(BufferedWriter outputWriter)
+    public Messenger(BufferedWriter outputWriter)
     {
       this.outputWriter =  outputWriter;
         gson = new GsonBuilder().serializeNulls().excludeFieldsWithoutExposeAnnotation().create();

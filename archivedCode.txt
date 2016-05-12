@@ -1,0 +1,43 @@
+/*
+        webhooksIncoming unsolicitedMessager = new webhooksIncoming(args[1]);
+
+        OutgoingData onlineMessage = new OutgoingData();
+        onlineMessage.setMessage("Bots Are Go!");
+        onlineMessage.setUser("Bot Manager");
+        onlineMessage.setChannel("#general");
+        onlineMessage.setIcon(":100:");
+        unsolicitedMessager.SendMessage(onlineMessage);
+
+        session.addBotListener(new MessageClient() {
+            @Override
+            public void messageReceived(String from, String channel, String msg, String trigger_word, MessageContainer outputMessage) {
+                //this is a bot response method...
+               outputMessage.setUsername(trigger_word);
+                outputMessage.setIcon(":ghost:");
+                outputMessage.setMessage(msg);
+                outputMessage.sendMessage();
+            }
+        });
+
+       */
+
+
+           /*
+           // Function for testing communication with Slack
+           private static void chatTest() {
+               boolean go = true;
+               String mesg;
+               char answer;
+               Scanner scan = new Scanner(System.in);
+               while (go) {
+                   System.out.println("What shall we say?");
+                   mesg = scan.nextLine();
+                   Communicator.slackSendReq(URL,mesg);
+                   System.out.print("Continue? y/n");
+                   answer = scan.nextLine().charAt(0);
+                   if (answer == 'n') {
+                       go = false;
+                   }
+               }
+           }
+           */
