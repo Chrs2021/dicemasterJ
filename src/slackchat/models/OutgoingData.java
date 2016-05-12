@@ -9,19 +9,23 @@ import com.google.gson.annotations.SerializedName;
 public class OutgoingData {
     @Expose
     @SerializedName("username")
-    public String user;
+    private String user;
 
     @Expose
     @SerializedName("text")
-    public String message;
+    private String message;
 
     @Expose
     @SerializedName("channel")
-    public String channel;
+    private String channel;
 
     @Expose
     @SerializedName("icon_emoji")
-    public String icon;
+    private String icon;
+
+    @Expose
+    @SerializedName("icon_url")
+    private String iconURL;
 
     public void setUser(String user) {
         this.user = user;
@@ -36,6 +40,9 @@ public class OutgoingData {
     }
 
     public void setIcon(String icon) {
-        this.icon = icon;
+        if(icon.startsWith(":"))
+            this.icon = icon;
+        else
+            this.iconURL = icon;
     }
 }

@@ -10,15 +10,20 @@ public class ReplyMessage {
 
     @Expose
     @SerializedName("username")
-    public String user;
+    private String user;
 
     @Expose
     @SerializedName("text")
-    public String message;
+    private String message;
 
     @Expose
     @SerializedName("icon_emoji")
-    public String emojiIcon;
+    private String emojiIcon;
+
+    @Expose
+    @SerializedName("icon_url")
+    private String iconURL;
+
 
     public String getUser() {
         return user;
@@ -32,8 +37,11 @@ public class ReplyMessage {
         return emojiIcon;
     }
 
-    public void setEmojiIcon(String emojiIcon) {
-        this.emojiIcon = emojiIcon;
+    public void setEmojiIcon(String icon) {
+        if(icon.startsWith(":"))
+            this.emojiIcon = icon;
+        else
+            this.iconURL = icon;
     }
 
     public String getMessage() {
