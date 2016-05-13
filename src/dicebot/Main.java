@@ -62,7 +62,6 @@ public class Main {
     }
 
     private static void startPMTimer(final RtmSession botSession) {
-
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
@@ -71,18 +70,21 @@ public class Main {
                 String isBot = "";
                 String userID;
                 int userNumber = 0;
+                Users user;
                 RtmResponse sessionInfo = botSession.getSessionInfo();
-
                 while (!presence.equalsIgnoreCase("active") & !isBot.equalsIgnoreCase("false")) {
                     userNumber = ((int) (Math.random() * 100) % sessionInfo.getUsers().length);
                     presence = sessionInfo.getUsers()[userNumber].getPresence();
                     isBot = sessionInfo.getUsers()[userNumber].getIs_bot();
                 }
-                userID = sessionInfo.getUsers()[userNumber].getId();
+                user = sessionInfo.getUsers()[userNumber];
+                final String[] responses = {"Hi there, "+ user.getName(),"I'm bored", "You doing anything interesting?", "What's up", "Yo!"};
+
+                userID = user.getId();
                 Channels dmChannel = botSession.openDMSession(userID);
-                botSession.sendSimpleMessage("Hey, " + sessionInfo.getUsers()[userNumber].getName(), dmChannel.getId());
+                botSession.sendSimpleMessage(responses[(int)(Math.random()*100) % responses.length], dmChannel.getId());
             }
-        }, 10 * 1000, 5 * 60 * 1000);
+        }, 10 * 1000, 30 * 60 * 1000);
 
 
     }
@@ -91,23 +93,24 @@ public class Main {
     {
 
         Timer timer = new Timer();
-        if(message.getText().contains("resta"))
-        mBotSession.setTypingStatus(MessageContainer.MessageTypes.typing, message.getChannel());
-        final String[] responses = {"you called, #"+ message.getUser(),"Are you lot gossipping about me again?", "What, What is it?", "Hiya" };
+        final String[] responses = {"you called, #"+ message.getUser(),"Are you lot gossipping about me again?", "What, What is it?", "That's my name...", "Ok"};
 
-        timer.schedule(new TimerTask() {
+        Pattern pattern = Pattern.compile("[dD]([\\d+]{1,3})");
+        final Matcher matcher = pattern.matcher(message.getText());
+        final boolean foundString = matcher.find();
+        if(message.getText().contains("resta")|| foundString)
+            mBotSession.setTypingStatus(MessageContainer.MessageTypes.typing, message.getChannel());
+
+            timer.schedule(new TimerTask() {
             @Override
             public void run() {
-                if(message.getText().matches("[dD]([0-9]?[0-9]?[0-9])")){
-                    Pattern pattern = Pattern.compile("[dD]([0-9]?[0-9]?[0-9])​");
-                    Matcher matcher = pattern.matcher(message.getText());
-                    final String test = matcher.group(0);
-                    mBotSession.sendSimpleMessage(test, message.getChannel());
-                }else
-                if (message.getText().contains(mBotSession.getSessionInfo().getSelf().getName())){
+                if(foundString) {
+                        final String found = matcher.group(1);
+                        mBotSession.sendSimpleMessage( String.valueOf((int)(Math.random()*1500 % Integer.parseInt(found)-1)+1)  , message.getChannel());
+                }else if (message.getText().contains(mBotSession.getSessionInfo().getSelf().getName())){
                     mBotSession.sendSimpleMessage(  responses[(int)(Math.random()*100) % responses.length]
                             , message.getChannel());
-                }//String.valueOf((int)(Math.random()*100 )%20)
+                }//
             }
         },3*1000);
     }
