@@ -122,7 +122,7 @@ public class Main {
             public void run() {
                 if(foundString) {
                         final String found = matcher.group(1);
-                        mBotSession.sendSimpleMessage( String.valueOf((int)(Math.random()*1500 % Integer.parseInt(found)-1)+1)  , message.getChannel());
+                        if (Integer.parseInt(found) > 0) mBotSession.sendSimpleMessage( String.valueOf((int)(Math.random()*1500 % Integer.parseInt(found))+1)  , message.getChannel());
                 }else if (message.getText().contains(mBotSession.getSessionInfo().getSelf().getName())){
                     mBotSession.sendSimpleMessage(  responses[(int)(Math.random()*100) % responses.length]
                             , message.getChannel());
