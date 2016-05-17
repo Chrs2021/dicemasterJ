@@ -17,10 +17,12 @@ import java.util.TimerTask;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static java.lang.Character.toUpperCase;
 import static slackchat.models.Rtm.MessageContainer.MessageTypes.*;
 
 public class Main {
 
+    private static int typingSeconds = 1;
     // Basically taking the place of the tables, with the key being the ID (more or less)
     private static Map<String, Player> players;
     private static Map<String, Duel> duels;
@@ -93,7 +95,21 @@ public class Main {
     {
 
         Timer timer = new Timer();
-        final String[] responses = {"you called, #"+ message.getUser(),"Are you lot gossipping about me again?", "What, What is it?", "That's my name...", "Ok"};
+
+        ////
+        // Generating modified User-name
+        String userIDs = message.getUser();
+        String userOut = "";
+        if (toUpperCase(userIDs.toCharArray()[0]) == 'U' && userIDs.length() > 8) {
+                char userID[] = userIDs.toCharArray();
+                userOut = "Unit " + userID[1] + userID[2] + "-" + userID[3] +  userID[4] + userID[5] + userID[6] + "-" + userID[7] + userID[8];
+        }
+        else userOut = "#" + userIDs;
+        //
+        ////
+        final String[] responses = {"You called, " + userOut + "?","Are you lot gossipping about me again?", "What, What is it?", "That's my name...", "Ok"};
+
+        //final String[] responses = {"you called, #"+ message.getUser(),"Are you lot gossipping about me again?", "What, What is it?", "That's my name...", "Ok"};
 
         Pattern pattern = Pattern.compile("[dD]([\\d+]{1,3})");
         final Matcher matcher = pattern.matcher(message.getText());
@@ -112,6 +128,6 @@ public class Main {
                             , message.getChannel());
                 }//
             }
-        },3*1000);
+        },typingSeconds*1000);
     }
 }
